@@ -45,6 +45,7 @@ mod util;
 // -----------------------------------------------------------------------------
 // Top-level exports
 
+pub use async_task::{FallibleTask, Task};
 pub use scope::Scope;
 pub use thread_pool::ThreadPool;
 pub use thread_pool::Worker;
