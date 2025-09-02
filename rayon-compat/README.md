@@ -6,9 +6,9 @@ To use this crate, apply the following cargo patch like one of these:
 ```
 // If you want to clone forte and use it locally
 [patch.crates-io]
-rayon-core = { path = "path to this repo", package = "rayon-compat" }
+rayon-core = { path = "path to this repo" }
 
 // If you want to use the latest published version of forte
 [patch.crates-io]
-rayon-core = { path = "https://github.com/NthTensor/Forte", package = "rayon-compat" }
+rayon-core = { path = "https://github.com/NthTensor/Forte" }
 ```
